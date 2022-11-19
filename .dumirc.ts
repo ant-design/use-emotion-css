@@ -5,4 +5,8 @@ export default defineConfig({
   themeConfig: {
     name: 'emotion',
   },
+  codeSplitting: false,
+  publicPath: '/use-emotion-css/',
+  // runtimePublicPath: {},
+  base: '/use-emotion-css/',
 });
