@@ -1,9 +1,5 @@
-# use-emotion-css
-
-A gadget that combines emotion and antd token
-
-```jsx
 import { useEmotionCss } from '@ant-design/use-emotion-css';
+import { Button } from 'antd';
 import React from 'react';
 
 export default () => {
@@ -37,7 +33,9 @@ export default () => {
         <div className={blockClassName} />
         <span>Hello World</span>
       </div>
+      <div>
+        <Button type="primary">按钮</Button>
+      </div>
     </div>
   );
 };
-```
