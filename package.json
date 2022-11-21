@@ -1,6 +1,6 @@
 {
   "name": "@ant-design/use-emotion-css",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A gadget that combines emotion and antd token",
   "keywords": [
     "antd",
@@ -16,8 +16,11 @@
     "url": "git+https://github.com/ant-design/use-emotion-css.git"
   },
   "license": "ISC",
-  "main": "index.js",
   "module": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "father build",
     "build:watch": "father dev",
