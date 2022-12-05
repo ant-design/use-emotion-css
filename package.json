@@ -16,7 +16,7 @@
     "url": "git+https://github.com/ant-design/use-emotion-css.git"
   },
   "license": "ISC",
-  "main": "main/index.js",
+  "main": "dist/index.js",
   "module": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
